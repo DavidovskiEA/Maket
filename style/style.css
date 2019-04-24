@@ -333,16 +333,21 @@ footer{
 @media all and (max-width: 800px) {
   
 .menu{
-    display: none;
+        display: none;
 }    
 
-    .mobileMenu{
-        display: block;
-        right: 2%;
-    }    
+.mobileMenu{
+	display: block;
+	right: 2%;
+}    
 .s4_wrapper{
 
-    margin-top: 0;
-}    
+    	margin-top: 0;
+}  
+	
+.icons{
+	display: flex;
+}
   
 }
+
